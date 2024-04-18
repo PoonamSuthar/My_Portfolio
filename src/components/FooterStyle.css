@@ -1,0 +1,47 @@
+.footer {
+    background-color: rgba(19, 19, 19, 0.85);
+    padding: 2rem;
+    z-index: 100;
+    
+    
+  }
+  
+.footer-container {
+    /* position: relative; */
+display: grid;
+grid-template-rows: repeat(4,1);
+grid-gap: 1rem;
+}
+
+.mobile-no,
+.email-add,
+.linkedin_add,
+.github-add {
+display: flex;
+align-items: center;
+color: white;
+flex-basis: 25%;
+}
+
+.mobile-no a,
+.email-add a,
+.linkedin_add a,
+.github-add a {
+display: flex;
+font-size: large;
+padding: .90rem;
+align-items: center;
+text-decoration: none;
+color: white;
+}
+
+.mobile-no span,
+.email-add span,
+.linkedin_add span,
+.github-add span {
+margin-left: 0.5rem;
+}
+
+.social-icon {
+margin-right: 0.5rem;
+}

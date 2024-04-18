@@ -1,0 +1,67 @@
+
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+.into-img {
+    width: 100%;
+    height:100% ;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+  }
+.mask::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+.hero{
+    height: 100%;
+    width: 100%;
+
+  }
+
+.hero .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    
+  }
+.hero .content h2{
+    font-size: 1.4rem;
+    padding: 0.6rem 0 1.5rem;
+    color: aliceblue;
+    font-weight: 290;
+}
+.hero .content p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+    
+@media screen and (max-width:640px){
+    
+    .hero .content p{
+        font-size: 3rem;
+        
+    }
+    .into-img {
+        width: 100%;
+        height:100% ;
+        
+    
+      }
+   
+}
+
+  

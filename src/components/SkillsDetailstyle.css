@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("D:\React\my-app\src\assets\background.jpg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .column1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .column1 h1 {
+    font-size: 2.rem;
+    margin-bottom: 1rem;
+  }
+  
+  .column1 p {
+    font-size: 1.2rem;
+    color: #a6a2a2;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(19, 19, 19, 0.35);
+
+
+  }
+  
+  .skills-list div {
+    margin: 1.5rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .skills-list div {
+    position: relative;
+  }
+  
+  .skills-list img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    /* background-color: rgba(19, 19, 19, 0.35); */
+    border: 2.1px solid transparent;
+    transition: border-color 0.3s ease;
+    animation: highlight 5.5s infinite;
+  }
+  
+  @keyframes highlight {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #3f3f80;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .skills-list p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+
+  @media screen and (max-width: 1040px){
+    .skills-list img {
+        width: 70px;
+        height: 70px;
+        object-fit: contain;
+        /* background-color: rgba(19, 19, 19, 0.35); */
+        border: 2px solid transparent;
+        transition: border-color 0.3s ease;
+        animation: highlight 5.5s infinite;
+      }
+      .skills-list div {
+        margin: 1.5rem;
+        text-align: center;
+        position: relative;
+      }
+  }
+  
