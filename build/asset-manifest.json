@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3bba3f9e.css",
+    "main.js": "/static/js/main.064460df.js",
+    "static/media/background.jpg": "/static/media/background.64219cc6d36d34cf3ec6.jpg",
+    "static/media/suddoku.jpg": "/static/media/suddoku.7711074ca92b315dca11.jpg",
+    "static/media/3675820.jpg": "/static/media/3675820.e18959b7e25e503d4d19.jpg",
+    "static/media/cab.jpg": "/static/media/cab.d622c7906d0646c4567c.jpg",
+    "static/media/sql.png": "/static/media/sql.c10b5bc47b47f99e1ff1.png",
+    "static/media/poonam_pic2.jpeg": "/static/media/poonam_pic2.2de82697457d0f97f67b.jpeg",
+    "static/media/R.png": "/static/media/R.0b3fc4fb536210a6fd48.png",
+    "static/media/vecteezy_netflix-logo-editorial-vector_22511457.jpg": "/static/media/vecteezy_netflix-logo-editorial-vector_22511457.87a98c2ad5f1f708df36.jpg",
+    "static/media/library.jpg": "/static/media/library.9aa5d5e8ae28edb0587c.jpg",
+    "static/media/esp32.jpeg": "/static/media/esp32.346316ef1e6e6b4f83e9.jpeg",
+    "static/media/HTML.png": "/static/media/HTML.1d7b133e22ffe4829da6.png",
+    "static/media/CSS.png": "/static/media/CSS.9f33c557b92e4e2e1cc8.png",
+    "static/media/js.png": "/static/media/js.166865dacb77d214f485.png",
+    "static/media/Rwact.png": "/static/media/Rwact.20adfb35ae6a6e5817bf.png",
+    "static/media/cpp.png": "/static/media/cpp.1240ce157b70fb399c6c.png",
+    "static/media/Dash.png": "/static/media/Dash.f872c2c4d24d5b8336c2.png",
+    "index.html": "/index.html",
+    "main.3bba3f9e.css.map": "/static/css/main.3bba3f9e.css.map",
+    "main.064460df.js.map": "/static/js/main.064460df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bba3f9e.css",
+    "static/js/main.064460df.js"
+  ]
+}
